@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplifying Your Electricity Management: A Guide to FESCO Online Services</title>
+    <meta name="google-site-verification" content="626Ch29U5NE4h18mqZ7mXD92RH4l7PuCMNSVJFcPf0o" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script>
+
+
+
+        function checkbill() {
+            window.location.href = `https://bill.pitc.com.pk/fescobill/general/${document.getElementById("mepcoRef").value}`
+
+
+        }
+
+    </script>
+
+
+
+    <style>
+        .input-field {
+            width: 100% !important;
+            height: 20px !important;
+            padding: 1.5rem 1rem !important;
+            overflow: hidden;
+            border: 1px solid rgba(0, 0, 0, .125);
+            border-radius: 0.25rem;
+
+        }
+
+        .checkBtn {
+            border-radius: 10px !important;
+            background: blue;
+            color: white;
+            overflow: hidden;
+            border: none;
+            width: auto;
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        .margin-top-30 {
+            margin-top: 30px;
+        }
+
+        .checkBtn:hover {
+
+            background: rgb(2, 2, 29);
+        }
+
+        .logo {
+            width: 60px;
+        }
+
+        .col {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        article {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .col {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+
+        .custom-card {
+            border: 1px solid rgba(0, 0, 0, .125);
+            border-radius: 0.25rem;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            max-width: 90%;
+
+            margin: auto;
+
+        }
+
+        .card-header {
+            padding: 0.5rem 1rem;
+            background: rgba(0, 0, 0, .03);
+            border-bottom: 1px solid rgba(0, 0, 0, .125);
+        }
+
+        .card-body {
+            padding: 1.5rem 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Simplifying Your Electricity Management: A Guide to FESCO Online Services</h1>
+    </header>
+    <div class="custom-card my-5">
+        <!-- card header -->
+        <div class="card-header">
+            <span>Check Your FESCO Bill</span>
+        </div>
+        <!-- card body -->
+        <div class="card-body ">
+
+            <form method="get" name="checkBillForm" id="checkBillForm">
+                <div>
+                    <label for="ref">Reference Number:</label>
+                </div>
+                <div>
+
+                    <input class="input-field" required="" placeholder="Enter your reference number" type="text"
+                        id="mepcoRef" name="refno">
+                </div>
+                <div id="error" class="error hidden">
+
+                </div>
+
+
+                <div class="margin-top-30" style="text-align: center;">
+                    <input type="button" onclick="checkbill()" class="checkBtn" value="Check FESCO Bill">
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+    <article>
+        <section>
+            <h2>1. How to Check FESCO Bill Online</h2>
+            <p>Gone are the days of waiting in long queues or dealing with paper bills. With <a
+                    href="http://fescobilling.pk/">FESCO's online bill
+                    checking service </a>, you can <a href="https://checkmepcobill.pk/lesco-bill/">access your
+                    electricity bill </a> anytime, anywhere. Simply follow these
+                steps:</p>
+            <ol>
+                <li>Visit the official FESCO website.</li>
+                <li>Look for the 'Online Bill' or 'Bill Inquiry' section.</li>
+                <li>Enter your 14-digit reference number (printed on your bill).</li>
+                <li>Click on 'Submit' or 'View Bill' to access your current bill details.</li>
+                <li>You can also choose to download or print the bill for your records.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>2. How to Pay FESCO Bill Online</h2>
+            <p>Paying your electricity bill has never been easier thanks to FESCO's online payment options. Here's how
+                you can settle your bill electronically:</p>
+            <ol>
+                <li>Visit FESCO's official website.</li>
+                <li>Navigate to the 'Online Bill Payment' section.</li>
+                <li>Enter your reference number or consumer ID.</li>
+                <li>Choose your preferred payment method (credit/debit card, mobile wallet, or online banking).</li>
+                <li>Follow the prompts to complete the payment securely.</li>
+                <li>Once the transaction is successful, you'll receive a confirmation message.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>3. How to Apply for a New FESCO Connection</h2>
+            <p>Need a new electricity connection? FESCO simplifies the process with its online application system.
+                Follow these steps to apply for a new connection:</p>
+            <ol>
+                <li>Visit the FESCO website and locate the New
+                    Connection section.</li>
+                <li>Fill out the online application form with accurate details.</li>
+                <li>Attach the required documents, such as CNIC, proof of ownership, and site plan.</li>
+                <li>Submit the application and wait for FESCO's verification process.</li>
+                <li>Once approved, pay the necessary fees online.</li>
+                <li>FESCO will schedule the installation of your new connection.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>4. FESCO History</h2>
+            <p>Faisalabad Electric Supply Company (FESCO) is a leading electricity distribution company in Pakistan,
+                serving millions of consumers in Faisalabad, Sargodha, Mianwali, Khushab, Bhakkar, Jhang, and Toba Tek
+                Singh. Established in 1998, FESCO is committed to providing reliable and affordable electricity to its
+                customers.</p>
+        </section>
+
+        <section>
+            <h2>5. FESCO Bill Taxes</h2>
+            <p>Understanding the components of your electricity bill can help you manage your expenses better. FESCO
+                bills typically include charges for electricity consumption, taxes, surcharges, and other levies imposed
+                by the government. Be sure to review your bill carefully to understand the breakdown of charges.</p>
+        </section>
+
+        <section>
+            <h2>6. Tips to Reduce FESCO Bill</h2>
+            <p>Looking to lower your electricity bill? Here are some tips to help you reduce energy consumption and save
+                money:</p>
+            <ul>
+                <li>Use energy-efficient appliances and lighting.</li>
+                <li>Turn off lights and electronics when not in use.</li>
+                <li>Opt for natural ventilation instead of air conditioning.</li>
+                <li>Seal gaps and cracks to prevent energy loss.</li>
+                <li>Consider investing in solar panels or other renewable energy sources.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>7. Safety Guidelines</h2>
+            <p>When dealing with electricity, safety should always be a top priority. Here are some essential safety
+                guidelines to keep in mind:</p>
+            <ul>
+                <li>Avoid tampering with electrical equipment or meters.</li>
+                <li>Hire qualified professionals for electrical installations and repairs.</li>
+                <li>Keep electrical outlets and wires away from water sources.</li>
+                <li>Use surge protectors to safeguard sensitive electronics.</li>
+                <li>In case of emergencies or power outages, contact FESCO's helpline immediately.</li>
+            </ul>
+        </section>
+        <p>
+            By utilizing FESCO's online services and following these guidelines, you can streamline your electricity
+            management and ensure a hassle-free experience. Embrace the convenience of digital solutions and take
+            control of your energy consumption today!
+        </p>
+    </article>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyBPZ5aPBDNNGUywadfEPC1692pk-pDmh6k",
+            authDomain: "fesco-bill-4ef74.firebaseapp.com",
+            projectId: "fesco-bill-4ef74",
+            storageBucket: "fesco-bill-4ef74.appspot.com",
+            messagingSenderId: "920140734595",
+            appId: "1:920140734595:web:6ccd57f7ceeec1b309fbb6"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+</body>
+
+</html>
